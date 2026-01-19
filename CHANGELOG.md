@@ -1,3 +1,10 @@
+## [1.0.1](https://github.com/mhmedwagih1324/Git-test/compare/v1.0.0...v1.0.1) (2026-01-19)
+
+
+### Bug Fixes
+
+* Update the text content of the second paragraph in `test.html`. ([#1](https://github.com/mhmedwagih1324/Git-test/issues/1)) ([04360ae](https://github.com/mhmedwagih1324/Git-test/commit/04360ae9573350f6e136a8714ac6f852a298851e))
+
 # 1.0.0 (2026-01-19)
 
 
