@@ -29,6 +29,8 @@ jobs:
         run: npm ci
 
       - name: Release Prep
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         # We override 'branches' to treat the current branch as the release branch.
         # This allows semantic-release to commit the version bump and changelog to the feature branch.
         run: npx semantic-release --branches ${{ github.ref_name }}
