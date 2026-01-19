@@ -1,3 +1,11 @@
+# [1.2.0](https://github.com/mhmedwagih1324/Git-test/compare/v1.1.0...v1.2.0) (2026-01-19)
+
+
+### Features
+
+* add base css styling for better readability ([d3fb5e8](https://github.com/mhmedwagih1324/Git-test/commit/d3fb5e88fd05725c52082baa5e73951b3387a10b))
+* link style.css and wrap content in a container div ([1abd8d1](https://github.com/mhmedwagih1324/Git-test/commit/1abd8d13ff796f343dbd01b855cb897c4f265dec))
+
 # [1.1.0](https://github.com/mhmedwagih1324/Git-test/compare/v1.0.1...v1.1.0) (2026-01-19)
 
 
