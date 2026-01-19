@@ -1,0 +1,43 @@
+name: Release
+on:
+  push:
+    branches:
+      - master
+  workflow_dispatch: # Allows manual triggering of the release workflow
+
+permissions:
+  contents: write
+  issues: write
+  pull-requests: write
+
+jobs:
+  release:
+    name: Release
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write # to be able to publish a GitHub release and push changes
+      issues: write # to be able to comment on released issues
+      pull-requests: write # to be able to comment on released pull requests
+      id-token: write # to enable use of OIDC for trusted publishing (e.g. npm provenance)
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: "lts/*"
+          cache: "npm"
+
+      - name: Install dependencies
+        run: npm ci # Uses package-lock.json for consistent and faster installs
+
+      - name: Verify dependencies
+        run: npm audit signatures # Verifies integrity of installed dependencies
+
+      - name: Release
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: npx semantic-release
