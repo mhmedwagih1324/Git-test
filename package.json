@@ -1,7 +1,7 @@
 {
   "name": "git-test",
   "version": "1.0.1",
-  "description": "This is Wigo talking",
+  "description": "A test repository for demonstrating semantic-release automation.",
   "main": "index.html",
   "scripts": {
     "start": "npm run lite",
