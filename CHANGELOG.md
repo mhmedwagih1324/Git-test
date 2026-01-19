@@ -1,3 +1,11 @@
+# [1.3.0](https://github.com/mhmedwagih1324/Git-test/compare/v1.2.0...v1.3.0) (2026-01-19)
+
+
+### Features
+
+* add hover animations to container for better UX ([8f27737](https://github.com/mhmedwagih1324/Git-test/commit/8f27737c7cd541f95f436da3adb6815ad185113a))
+* add upcoming features section to index ([1cbf950](https://github.com/mhmedwagih1324/Git-test/commit/1cbf95036914555518d06920a7ff774f894f80b6))
+
 # [1.2.0](https://github.com/mhmedwagih1324/Git-test/compare/v1.1.0...v1.2.0) (2026-01-19)
 
 
