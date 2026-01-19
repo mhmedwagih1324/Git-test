@@ -38,6 +38,8 @@ jobs:
       - name: Create Pull Request to Master
         # Only create a PR if we are NOT on the master or main branch
         if: github.ref_name != 'master' && github.ref_name != 'main'
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           gh pr create \
             --base master \
