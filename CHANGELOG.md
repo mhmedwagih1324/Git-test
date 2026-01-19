@@ -1,3 +1,10 @@
+# [1.1.0](https://github.com/mhmedwagih1324/Git-test/compare/v1.0.1...v1.1.0) (2026-01-19)
+
+
+### Features
+
+* update index.html title and add meta description ([891ea54](https://github.com/mhmedwagih1324/Git-test/commit/891ea54895522bb155a37b9abf4adaa90c7192dd))
+
 ## [1.0.1](https://github.com/mhmedwagih1324/Git-test/compare/v1.0.0...v1.0.1) (2026-01-19)
 
 
