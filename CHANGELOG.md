@@ -1,3 +1,18 @@
+# [1.5.0](https://github.com/mhmedwagih1324/Git-test/compare/v1.4.0...v1.5.0) (2026-01-21)
+
+
+### Features
+
+* **test:** added a feature ([697a8ab](https://github.com/mhmedwagih1324/Git-test/commit/697a8abbfa6556f0a83875a485bc9c176d01d33d))
+
+# [1.4.0](https://github.com/mhmedwagih1324/Git-test/compare/v1.3.1...v1.4.0) (2026-01-19)
+
+
+### Features
+
+* add site footer with copyright info ([c289247](https://github.com/mhmedwagih1324/Git-test/commit/c2892472bd348b0a2bc5e83b0cf8688821efe0cb))
+* add subtle footer styling ([fecab36](https://github.com/mhmedwagih1324/Git-test/commit/fecab36ee3cc37387f6a744cef6ec4564910a7b3))
+
 ## [1.3.1](https://github.com/mhmedwagih1324/Git-test/compare/v1.3.0...v1.3.1) (2026-01-19)
 
 

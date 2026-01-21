@@ -29,3 +29,10 @@ h1 {
 p {
   margin-bottom: 15px;
 }
+
+footer {
+  text-align: center;
+  margin-top: 40px;
+  color: #7f8c8d;
+  font-size: 0.9em;
+}
