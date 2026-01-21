@@ -1,3 +1,10 @@
+# [1.5.0](https://github.com/mhmedwagih1324/Git-test/compare/v1.4.0...v1.5.0) (2026-01-21)
+
+
+### Features
+
+* **test:** added a feature ([697a8ab](https://github.com/mhmedwagih1324/Git-test/commit/697a8abbfa6556f0a83875a485bc9c176d01d33d))
+
 # [1.4.0](https://github.com/mhmedwagih1324/Git-test/compare/v1.3.1...v1.4.0) (2026-01-19)
 
 
